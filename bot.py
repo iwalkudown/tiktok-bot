@@ -31,8 +31,8 @@ class Bot:
         self._check_services_status()
         self.driver.minimize_window()
         self._print_services_list()
-        service = self._choose_service()
-        video_url = self._choose_video_url()
+        service = self._choose_service(views)
+        video_url = self._choose_video_url(https://www.tiktok.com/t/ZP8F7qvq2/)
         self._start_service(service, video_url)
 
     def _print_banner(self):
